@@ -1,0 +1,32 @@
+body{
+    background: linear-gradient(cyan,darkblue);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#central{
+    width: 500px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;    
+    
+}
+
+#liga{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#desliga{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}

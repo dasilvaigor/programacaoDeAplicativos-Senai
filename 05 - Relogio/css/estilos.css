@@ -1,0 +1,66 @@
+body{
+
+    background: linear-gradient(red, white, rgb(0, 33, 219));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.relogio{
+
+    width: 650px;
+    height: 300px;
+    border-radius: 60px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    gap: 10px;
+    box-shadow: 5px 5px 12px grey;
+}
+
+.relogio div{
+
+    color: black;
+    width: 150px;
+    height: 200px;
+    border-radius: 20px;
+    font-size: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.relogio p{
+
+    font-size: 150px;
+}
+
+.calendario {
+
+    background: rgba(93, 86, 86, 0.789);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgb(70, 64, 64);
+    font-size: 40px;
+}
+
+.calendario .data {
+
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 16px 0px;
+    font-size: 50px;
+}
+
+#second {
+    font-size: 30px; 
+}

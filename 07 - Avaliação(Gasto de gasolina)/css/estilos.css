@@ -1,0 +1,45 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(red, rgb(251, 227, 227));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#caixa {
+    background: white;
+    width: 500px;
+    height: 450px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h2 {
+    color: rgb(162, 0, 0);
+}
+
+input {
+    width: 400px;
+    height: 10px;
+    border-radius: 5px;
+    border: none;
+    background: silver;
+    font-size: 20px;
+    padding: 10px 30px;
+    justify-content: center;
+}
+
+button {
+    width: 460px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(166, 36, 36);
+    color: white;
+    padding: 10px;
+}
